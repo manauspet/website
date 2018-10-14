@@ -15,6 +15,7 @@ function clean(cb) {
 function img(cb) {
   return pump([
     gulp.src('./src/img/*'),
+    $.imagemin(),
     gulp.dest('./dist/img'),
   ], cb);
 }
