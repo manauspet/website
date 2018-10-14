@@ -1,0 +1,29 @@
+{
+  "name": "@manauspet/website",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "gulp serve",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manauspet/manauspet.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manauspet/manauspet.github.io/issues"
+  },
+  "homepage": "https://github.com/manauspet/manauspet.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "pump": "^3.0.0"
+  }
+}
